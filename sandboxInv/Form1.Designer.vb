@@ -30,9 +30,10 @@ Partial Class Form1
         '
         'Button1
         '
-        Me.Button1.Location = New System.Drawing.Point(99, 168)
+        Me.Button1.Location = New System.Drawing.Point(132, 207)
+        Me.Button1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button1.Name = "Button1"
-        Me.Button1.Size = New System.Drawing.Size(75, 23)
+        Me.Button1.Size = New System.Drawing.Size(100, 28)
         Me.Button1.TabIndex = 0
         Me.Button1.Text = "Login"
         Me.Button1.UseVisualStyleBackColor = True
@@ -40,37 +41,41 @@ Partial Class Form1
         'Label1
         '
         Me.Label1.AutoSize = True
-        Me.Label1.Location = New System.Drawing.Point(96, 126)
+        Me.Label1.Location = New System.Drawing.Point(128, 155)
+        Me.Label1.Margin = New System.Windows.Forms.Padding(4, 0, 4, 0)
         Me.Label1.Name = "Label1"
-        Me.Label1.Size = New System.Drawing.Size(141, 13)
+        Me.Label1.Size = New System.Drawing.Size(176, 16)
         Me.Label1.TabIndex = 1
         Me.Label1.Text = "Enter Employee ID Number: "
         '
         'TextBox1
         '
-        Me.TextBox1.Location = New System.Drawing.Point(99, 142)
+        Me.TextBox1.Location = New System.Drawing.Point(132, 175)
+        Me.TextBox1.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.TextBox1.Name = "TextBox1"
-        Me.TextBox1.Size = New System.Drawing.Size(179, 20)
+        Me.TextBox1.Size = New System.Drawing.Size(237, 22)
         Me.TextBox1.TabIndex = 2
         '
         'Button2
         '
-        Me.Button2.Location = New System.Drawing.Point(282, 285)
+        Me.Button2.Location = New System.Drawing.Point(376, 351)
+        Me.Button2.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Button2.Name = "Button2"
-        Me.Button2.Size = New System.Drawing.Size(75, 23)
+        Me.Button2.Size = New System.Drawing.Size(100, 28)
         Me.Button2.TabIndex = 3
         Me.Button2.Text = "Exit"
         Me.Button2.UseVisualStyleBackColor = True
         '
         'Form1
         '
-        Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
+        Me.AutoScaleDimensions = New System.Drawing.SizeF(8.0!, 16.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(369, 320)
+        Me.ClientSize = New System.Drawing.Size(492, 394)
         Me.Controls.Add(Me.Button2)
         Me.Controls.Add(Me.TextBox1)
         Me.Controls.Add(Me.Label1)
         Me.Controls.Add(Me.Button1)
+        Me.Margin = New System.Windows.Forms.Padding(4, 4, 4, 4)
         Me.Name = "Form1"
         Me.Text = "Form1"
         Me.ResumeLayout(False)
